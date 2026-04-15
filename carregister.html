@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<style>
+    * {
+        text-align: center;
+    }
+
+    .reg {
+        border: 17px solid orange;
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        margin-top: 51px;
+        margin-left: 509px;
+    }
+
+    .name,
+    .age,
+    .phno,
+    .email,
+    .address,
+    .pass,.btn{
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+
+    pre {
+        box-shadow: 1px 1px 10px grey;
+    }
+
+    form {
+        margin-top: 54px;
+    }
+
+    .logo {
+        background-color: orange;
+        padding: 14px;
+        width: 89px;
+        border-radius: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        z-index: 1;
+        transition: width 2s, height 2s, background-color 2s, transform 2s;
+        margin-left: 124px;
+    }
+
+    .OB {
+        color: white;
+        font-size: 17px;
+    }
+
+    li {
+        list-style: none;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    @media screen and (max-width:820px){
+            .reg {
+        border: 17px solid orange;
+        height: 394px;
+        width: 649px;
+        text-align: center;
+        margin-top: 204px;
+        margin-left: 61px;
+    }
+.logo {
+    background-color: orange;
+    padding: 14px;
+    width: 89px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    z-index: 1;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    margin-left: 254px;
+}
+    }
+    @media screen and (max-width:376px){
+        .reg {
+    border: 17px solid orange;
+    height: 381px;
+    width: 299px;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 16px;
+}
+.logo {
+    background-color: orange;
+    padding: 14px;
+    width: 89px;
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    z-index: 1;
+    transition: width 2s, height 2s, background-color 2s, transform 2s;
+    margin-left: 93px;
+}
+    }
+</style>
+
+<body>
+    <div class="reg">
+        <form>
+            <li>
+            <li class="logo"><span class="OB">OB</span>erlo</li>
+            </li>
+
+            <pre><label class="name" >NAME:</label>      <input type="text" placeholder="Name"></pre>
+            <pre><label class="pass" >PASSWORD:</label> <input type="password" placeholder="Password"></pre>
+            <pre><label class="age" >AGE:</label>        <input type="number" placeholder="Age"></pre>
+            <pre><label class="phno" >PH.NO:</label>      <input type="number" placeholder="Mobile no"></pre>
+            <pre><label class="email" >E-MAIL:</label>     <input type="email" placeholder="e-mail"></pre>
+            <pre><label class="address" >ADDRESS:</label>  <input type="text" placeholder="Address"></pre>
+            <button  class="btn" type="button">SUBMIT</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>

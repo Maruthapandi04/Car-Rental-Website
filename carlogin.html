@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<style>
+    body {
+        align-items: center;
+        background: orange;
+    }
+
+    .line {
+        border: 1px solid white;
+        background-color: antiquewhite;
+        height: 463px;
+        width: 339px;
+        text-align: center;
+        margin-top: 15 px;
+
+    }
+
+    .name {
+        border-radius: 10px;
+        padding: 6px;
+        margin-top: 20px;
+        box-shadow: 1px 1px 10px grey;
+
+    }
+
+    .name,.number {
+        border-radius: 10px;
+        padding: 5px;
+        margin-top: 20px;
+        box-shadow: 1px 1px 10px grey;
+        background-color: white;
+    }
+    label{
+    }
+
+    .button {
+        margin-top: 30px;
+        padding: 5px;
+        width: 165px;
+    }
+
+    .logo {
+        background-color: orange;
+        padding: 14px;
+        width: 89px;
+        border-radius: 10px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-align: center;
+        z-index: 1;
+        transition: width 2s, height 2s, background-color 2s, transform 2s;
+        margin-left: 104px;
+        margin-top:12px;
+    }
+
+    .OB {
+        color: white;
+        font-size: 17px;
+    }
+
+    li {
+        list-style: none;
+    }
+    
+    svg {
+    margin-top: 84px;
+    height: 60px;
+    width: 60px;
+    margin-left: -23px;
+}
+@media screen and (max-width:376px){
+       
+.line {
+    border: 1px solid white;
+    background-color: antiquewhite;
+    height: 437px;
+    width: 339px;
+    text-align: center;
+    margin-top: 15 px;
+    margin-top: 102px;
+}
+svg {
+    margin-top: 62px;
+    height: 60px;
+    width: 60px;
+    margin-left: -23px;
+}
+@media screen and (max-width:820px){
+   .line {
+    border: 1px solid white;
+    background-color: antiquewhite;
+    height: 463px;
+    width: 339px;
+    text-align: center;
+    margin-top: 15 px;
+    margin-top: 350px;
+} 
+}
+}
+</style>
+
+<body>
+    <form>
+        <center>
+
+            <div class="line">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>human-greeting-variant</title>
+                    <path
+                        d="M1.5,4V5.5C1.5,9.65 3.71,13.28 7,15.3V20H22V18C22,15.34 16.67,14 14,14C14,14 13.83,14 13.75,14C9,14 5,10 5,5.5V4M14,4A4,4 0 0,0 10,8A4,4 0 0,0 14,12A4,4 0 0,0 18,8A4,4 0 0,0 14,4Z" />
+                </svg>
+                <li>
+                <li class="logo"><span class="OB">OB</span>erlo</li>
+                </li>
+                <label> USERNAME: </label>
+                <input class="name" type="text" placeholder="Name">
+                <label>PASSWORD:</label>
+                <input class="number" type="password" placeholder="Password">
+                <button class="button" type="button">Login</button>
+            </div>
+        </center>
+
+    </form>
+</body>
+
+</html>
